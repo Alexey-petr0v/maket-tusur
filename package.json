@@ -1,0 +1,33 @@
+{
+  "name": "maket-tusur",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexey-petr0v/maket-tusur.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexey-petr0v/maket-tusur/issues"
+  },
+  "homepage": "https://github.com/Alexey-petr0v/maket-tusur#readme",
+  "devDependencies": {
+    "css-loader": "^4.3.0",
+    "jquery": "^3.5.1",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.5.1",
+    "mini-css-extract-plugin": "^0.11.2"
+  }
+}
