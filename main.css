@@ -6,17 +6,18 @@ body {
 
 .container, .container_2 {
     height: 1900px;
+    width: 1250px;
     margin: 20px;
 }
 
 .elem_1 {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     outline: 1px solid white;
 }
 
 .block_1 > * {
-    margin-right: 150px;
+    margin-right: 75px;
 }
 
 .block_1 > *:last-child {
@@ -24,39 +25,39 @@ body {
 }
 
 .elem_2 {
-    width: 900px;
-    min-width: 200px;
-    height: 200px;
+    width: 600px;
+    min-width: 150px;
+    height: 150px;
     outline: 1px solid white;
-    margin-right: 150px;
+    margin-right: 75px;
 }
 
 .block_1 {
     display: flex;
     justify-content: stretch;
     flex-wrap: wrap;
-    margin-bottom: 150px;
+    margin-bottom: 75px;
 }
 
 .block_2 {
     display: flex;
     flex-wrap: wrap;
-    height: 550px;
+    height: 375px;
 }
 
 .block_2 {
-    margin-bottom: 150px;
+    margin-bottom: 75px;
 }
 
 .block_3 .elem_1:first-child {
-    margin-bottom: 150px;
-    margin-right: 150px;
+    margin-bottom: 75px;
+    margin-right: 75px;
 }
 
 .block_4 {
     display: flex;
     align-items: flex-end;
-    margin-right: 150px;
+    margin-right: 75px;
 }
 
 .block_5 {
@@ -66,38 +67,39 @@ body {
 }
 
 .block_5 .elem_1 {
-    margin-bottom: 150px;
+    margin-bottom: 75px;
+    margin-right: 75px;
 }
 
-.block_5 .elem_1:first-child {
-    margin-right: 150px;
+.block_5 .elem_1:last-child {
+    margin-right: 0x;
 }
 
 
 .elem_4 {
-    width: 550px;
-    min-width: 200px;
-    height: 200px;
+    width: 375px;
+    min-width: 150px;
+    height: 150px;
     outline: 1px solid white;
 }
 
 
 
 .elem_3 {
-    height: 550px;
-    min-width: 200px;
-    width: 200px;
+    height: 375px;
+    min-width: 150px;
+    width: 150px;
     outline: 1px solid white;
-    margin-right: 150px;
+    margin-right: 75px;
 }
 
 .block_6 {
     display: flex;
-    width: 1600px;
+    width: 1200px;
 }
 
 .block_6 > .elem_1{
-    margin-right: 150px;
+    margin-right: 75px;
 }
 
 .block_6 > .elem_1:last-child{
@@ -105,7 +107,7 @@ body {
 }
 
 .block_6 > .elem_1:nth-child(2){
-    margin-right: 850px;
+    margin-right: 525px;
 }
 
 .container .elem:hover {
